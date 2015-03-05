@@ -1,3 +1,8 @@
+alias vi "vi -p"
+alias vim "vim -p"
+
+set -Ux EDITOR vim
+
 set fish_git_dirty_color red
 set fish_git_not_dirty_color green
 
