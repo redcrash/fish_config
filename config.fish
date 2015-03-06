@@ -1,7 +1,8 @@
-alias vi "vi -p"
-alias vim "vim -p"
+alias vi="vi -p"
+alias vim="vim -p"
 
-set -Ux EDITOR vim
+set -gx EDITOR vim
+set -gx PATH $HOME/aplic/wxparaver64/latest/bin $PATH
 
 set fish_git_dirty_color red
 set fish_git_not_dirty_color green
