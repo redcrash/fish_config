@@ -1,5 +1,6 @@
 alias vi="vi -p"
 alias vim="vim -p"
+alias ssh="ssh -Y"
 
 set -gx EDITOR vim
 set -gx PATH $HOME/aplic/wxparaver64/latest/bin $PATH
