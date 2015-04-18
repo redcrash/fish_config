@@ -2,7 +2,7 @@ alias vi="vi -p"
 alias vim="vim -p"
 
 set -gx EDITOR vim
-set -gx PATH $HOME/aplic/wxparaver64/latest/bin $PATH
+set -gx PATH $HOME/aplic/wxparaver64/latest/bin $HOME/aplic/tig/git/bin/ $PATH
 
 set fish_git_dirty_color red
 set fish_git_not_dirty_color green
