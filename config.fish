@@ -3,7 +3,7 @@ alias vim="vim -p"
 alias ssh="ssh -Y"
 
 set -gx EDITOR vim
-set -gx PATH $HOME/aplic/wxparaver64/latest/bin /home/harald/aplic/android/sdk/platform-tools $PATH
+set -gx PATH $HOME/aplic/wxparaver64/latest/bin /home/harald/aplic/android/sdk/platform-tools $HOME/aplic/tig/git/bin $PATH
 
 set fish_git_dirty_color red
 set fish_git_not_dirty_color green
